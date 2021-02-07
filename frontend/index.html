@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Vega - Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="container">
+
+    <header>
+        <nav id="navbar">
+            <div class="content-nav">
+                <div class="logo">FV</div>
+                <div>
+                    <ul class="items-nav">
+                        <li><a href="#about">Sobre mi</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contacto">Contácto</a></li>
+                    </ul>
+                </div>
+                <div class="menuIcon"><span class="icon icon-bars"></span><span class="icon icon-bars overlay"></span>
+                    <!-- <p>Menú</p> -->
+                </div>
+            </div>
+
+            
+
+            <div class="overlay-menu" style="transform: translateX(-100%); transition: transform 0.2s ease-out 0s;">
+                <div class="gris">
+                    <ul>
+                        <li><a href="#about">Sobre mi</a>
+                        </li>
+                        <li class="accordeon"><a href="">Mis proyectos</a>
+                            <ul>
+                                <li><a href="#projects">Proyectos principales</a></li>
+                                <li><a href="#">Más proyectos</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="#contacto">Contáctame</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="about" id="about">
+        <div class="content-about">
+
+            <div class="img-profile">
+                <img src="images/profile.jpg" alt="">
+            </div>
+            <div>
+                <h1>Sobre mi</h1>
+                <p>
+                    Hola, soy Fernando Vega Duque, ingeniero de sistemas computacionales. Soy desarrollador web y manejo tecnologias de front-end y back-end.
+                </p>
+                <p>
+                    Actualmente trabajo en un agencia de marketing digital, en la cual me desempeño como programador de interfaces.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <!-- <div class="title"> -->
+            <!-- <hr> -->
+            <h1>Mis proyectos</h1>
+            <!-- <hr> -->
+        <!-- </div> -->
+        
+        <div class="content-projects">
+            
+            <div class="card">
+                <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg" alt="">
+                <span class="title">Titulo</span>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi?
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg" alt="">
+                <span class="title">Titulo</span>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi?
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg" alt="">
+                <span class="title">Titulo</span>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi?
+                </div>
+            </div>
+
+            
+
+        </div>
+        <div class="btn-ver">
+            <a href="#">Ver más</a>
+        </div>
+        <br>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2>Contáctame</h2>
+        <form action="">
+            <div class="content-contact">
+                <div class="input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>              
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>              
+                <div class="input">
+                    <label for="tema">Tema</label>
+                    <input type="text" name="tema" id="tema">
+                </div>              
+                <div class="input">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <button type="submit">Enviar</button>
+                </div>                  
+            </div>
+    </form>
+    </section>
+
+    <footer>
+        <p>Fernando Vega &copy; 2021</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
